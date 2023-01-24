@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+
+p {
+  line-height: 28px;
+  color: #707070;
+  text-align: center;
+}
+
+.section-description {
+  width: 45%;
+}
+hr {
+  width: 60%;
+  border: 1px solid #dadada;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+/* main {
+  max-width: 1140px;
+} */
+.section-title {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  color: #121212;
+  margin-top: 130px;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121212;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background: #ff5959;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  padding: 16px 20px;
+  border: 0;
+}
+
+/* header styles */
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 669px;
+}
+
+header > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+header .header-content {
+  width: 55%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  flex: 1;
+}
+
+.header-title {
+  font-family: "Inter", sans-serif;
+  font-size: 65px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.header-text {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+/* Donate section styles */
+.donate-today {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.donate-amounts {
+  display: flex;
+  gap: 22px;
+  justify-content: space-around;
+}
+.donate-item {
+  background-color: #fafafa;
+  padding: 24px 44px;
+  border: 2px solid #fafafa;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.donate-item:hover {
+  color: #ff5959;
+  background: #ffeeee;
+  border: 2px solid #ff5959;
+}
+
+.donate-item p {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+/* donate plan styles */
+
+/*  */
+@media screen and (max-width: 1350px) {
+  header > img {
+    object-fit: cover;
+  }
+}
