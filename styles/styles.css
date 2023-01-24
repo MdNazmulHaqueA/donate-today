@@ -129,7 +129,7 @@ header .header-content {
 .plans {
   display: flex;
   justify-content: space-between;
-  margin: 50px 177px 130px 177px;
+  margin: 50px 177px 0 177px;
 }
 .plan-item {
   background: rgba(79, 157, 166, 0.1);
@@ -160,6 +160,89 @@ header .header-content {
 .bg-yellow {
   background-color: #fff4d6;
 }
+
+/* article section styles */
+.articles {
+  display: flex;
+  flex-direction: column;
+  margin-left: 177px;
+  margin-right: 177px;
+  margin-top: 130px;
+  gap: 50px;
+}
+
+.article {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.article-title {
+  font-family: "Inter", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  color: #121212;
+}
+.article .article-title,
+.article p,
+.article button {
+  text-align: left;
+}
+.article p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.article .article-content {
+  width: 55%;
+}
+.article img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* form section styles */
+.form-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 130px;
+}
+
+.form-section p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 45%;
+}
+
+.form-container {
+  background: #fff4d6;
+  padding: 76px 188px;
+  display: flex;
+  align-items: center;
+}
+
+input[type="email"] {
+  background: #d9d9d9;
+  border: none;
+  width: 275px;
+  height: 48px;
+  padding-left: 10px;
+  border-radius: 5px 0px 0px 5px;
+}
+.btn-subscribe {
+  background: #ff5959;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  padding: 14px 42px;
+  border: 0;
+  border-radius: 0px 5px 5px 0px;
+  margin-left: -10px;
+}
+
+/* footer styles */
 /*  */
 @media screen and (max-width: 1350px) {
   header > img {
