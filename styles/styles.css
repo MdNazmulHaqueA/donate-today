@@ -12,9 +12,6 @@ p {
   text-align: center;
 }
 
-.section-description {
-  width: 45%;
-}
 hr {
   width: 60%;
   border: 1px solid #dadada;
@@ -34,12 +31,8 @@ hr {
   margin-bottom: 20px;
 }
 
-.section-subtitle {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  color: #121212;
-  margin-bottom: 20px;
+.section-description {
+  width: 45%;
 }
 
 .btn-primary {
@@ -127,7 +120,46 @@ header .header-content {
 }
 
 /* donate plan styles */
+.donate-plan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.plans {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 177px 130px 177px;
+}
+.plan-item {
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+  padding: 63px 23px;
+  margin-right: 24px;
+}
+.plan-title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #121212;
+  margin-top: 30px;
+  margin-bottom: 16px;
+}
+.plan-description {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  font-weight: 400;
+  width: 90%;
+}
+
+.bg-rose {
+  background: rgba(255, 89, 89, 0.1);
+}
+
+.bg-yellow {
+  background-color: #fff4d6;
+}
 /*  */
 @media screen and (max-width: 1350px) {
   header > img {
