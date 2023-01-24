@@ -243,6 +243,28 @@ input[type="email"] {
 }
 
 /* footer styles */
+.footer {
+  padding-top: 43px;
+  padding-bottom: 43px;
+  background: #0b0d17;
+  text-align: center;
+}
+
+footer h2 {
+  font-family: "Lobster";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #ff5959;
+  margin-bottom: 24px;
+}
+
+footer p {
+  color: #d9dbe1;
+  font-size: 14px;
+  line-height: 24px;
+}
 /*  */
 @media screen and (max-width: 1350px) {
   header > img {
